@@ -15,7 +15,7 @@ except ValueError:
     print("Default password length (12) will be selected. \n")
 
 try:
-    num_in_pass = int(input("Please enter the number of alphabets you want in your password: "))
+    num_in_pass = int(input("Please enter the number characters you want in your password: "))
 except ValueError:
     print("Invalid input. Your password will be equally divided into alphabets and numbers. \n")
     num_in_pass = int(pass_len/2)
